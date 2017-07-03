@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@android:color/holo_orange_dark">
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Indore Courier Service"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="34dp"
+        android:textColor="@android:color/black"
+        android:alpha="0.7"/>
+
+    <Button
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/buttonCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Buyer"
+        android:textSize="24dp"
+        android:background="#55000000"
+        android:alpha="0.7"
+        />
+
+    <Button
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/buttonDriver"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Customer"
+        android:textSize="24dp"
+        android:background="#55000000"
+        android:alpha="0.7"/>
+
+    <Button
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/buttonAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Admin"
+        android:textSize="24dp"
+        android:background="#55000000"
+        android:alpha="0.7"/>
+</LinearLayout>
