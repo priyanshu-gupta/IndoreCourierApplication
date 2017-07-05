@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/welcome_driver_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Driver !!!"
+        android:textSize="50px"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/driver_username_Et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:hint="UserName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/driver_password_Et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/driver_login_Bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/driver_new_User_Bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New User" />
+</LinearLayout>

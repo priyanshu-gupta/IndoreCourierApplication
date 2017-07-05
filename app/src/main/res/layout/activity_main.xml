@@ -23,7 +23,7 @@
         android:id="@+id/buttonCustomer"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="Buyer"
+        android:text="Customer"
         android:textSize="24dp"
         android:background="#55000000"
         android:alpha="0.7"
@@ -36,7 +36,7 @@
         android:id="@+id/buttonDriver"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="Customer"
+        android:text="Driver"
         android:textSize="24dp"
         android:background="#55000000"
         android:alpha="0.7"/>
