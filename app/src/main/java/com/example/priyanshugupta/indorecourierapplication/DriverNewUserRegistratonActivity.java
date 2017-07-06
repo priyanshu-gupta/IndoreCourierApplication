@@ -1,5 +1,6 @@
 package com.example.priyanshugupta.indorecourierapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -38,7 +39,27 @@ public class DriverNewUserRegistratonActivity extends AppCompatActivity {
         submitBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String driverName = nameEt.getText().toString();
+                String driverUserName = usernameEt.getText().toString();
+                String driverEmail =  emailEt.getText().toString();
+                String driverpassword = passwordEt.getText().toString();
+                String drivermobile = mobileEt.getText().toString();
+                String driverEmergencyMobile = emergencymobileEt.getText().toString();
+                String driverAddress = addressEt.getText().toString();
+                String driverAdhaarNo =adhaarnoEt.getText().toString();
 
+
+             Intent intent = new Intent(DriverNewUserRegistratonActivity.this,DriverVehicleDetailsActivity.class);
+                intent.putExtra("driverName",driverName);
+                intent.putExtra("driverUserName",driverUserName);
+                intent.putExtra("driverEmail",driverEmail);
+                intent.putExtra("driverPassword",driverpassword);
+                intent.putExtra("driverMobile",drivermobile);
+                intent.putExtra("driverEmergencyMobile",driverEmergencyMobile);
+                intent.putExtra("driverAddress",driverAddress);
+                intent.putExtra("driverAdhaarNo",driverAdhaarNo);
+
+                startActivity(intent);
                 //yaha se yeh details forward krdo ya fir direct save kr do
                 // age forward krna jyad better hai
                 // jab driver sari formalities and entries complete kr de
