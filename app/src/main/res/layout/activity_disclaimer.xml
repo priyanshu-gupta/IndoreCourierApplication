@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/disclaimerTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="here we will write the disclaimer of the and driver has to accept the agreement " />
+
+
+
+    <Button
+        android:id="@+id/iAgreeBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I Agree" />
+
+    <Button
+        android:id="@+id/iDisagreeAgreeBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I do not Agree" />
+</LinearLayout>
