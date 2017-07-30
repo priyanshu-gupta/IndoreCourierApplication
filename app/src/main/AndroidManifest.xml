@@ -19,6 +19,13 @@
         <activity android:name=".DriverLoginActivity"></activity>
         <activity android:name=".DriverNewUserRegistratonActivity"></activity>
         <activity android:name=".DriverVehicleDetailsActivity"></activity>
+        <activity android:name=".CustomerHomeActivity"></activity>
+        <activity android:name=".CustomerLoginActivity"></activity>
+        <activity android:name=".CustomerNewOrderActivity"></activity>
+        <activity android:name=".CustomerRegistrationActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".CustomerProfileActivity"></activity>
+        <activity android:name=".CustomerProfileEditActivity"></activity>
 
 
     </application>

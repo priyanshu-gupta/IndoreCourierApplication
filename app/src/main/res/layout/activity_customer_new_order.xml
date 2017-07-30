@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/customerNewOrderTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Your Order"
+        android:textSize="25px"/>
+
+    <EditText
+        android:id="@+id/customerPickAddEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Enter Pick Up Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/customerDeliveryAddEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter Delivery Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/customerRecNumEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter Reciever's Contact Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/customerRecAltNumEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter Reciever's Alternate Contact Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/customerPkgWeightEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter Package Weight"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/customerPkgDetailEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter Details of Package"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/customerSubmitBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>

@@ -38,8 +38,8 @@ public class DriverDisclaimerActivity extends AppCompatActivity {
         iagreeBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(DriverDisclaimerActivity.this, "Thanks for accepting our agreement ", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(DriverDisclaimerActivity.this,DriverHomeActivity.class);
+                //Toast.makeText(DriverDisclaimerActivity.this, "Thank you for accepting our agreement", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(DriverDisclaimerActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });

@@ -31,6 +31,13 @@ public class MainActivity extends Activity {
             }
         });
 
+        buttonCustomer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CustomerHomeActivity.class);
+                startActivity(intent);
+            }
+        });
         buttonAdmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
